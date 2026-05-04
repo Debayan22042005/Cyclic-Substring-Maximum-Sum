@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    char s[100], t[100];
+    char s[100005], t[200010];
     int n, i, right, idx, lidx;
     int freq[26] = {0};
     int left = 0;
